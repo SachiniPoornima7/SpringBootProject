@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Management</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background: #f9f9f9;
+        }
+        .table-container {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="../template/index1.html">
+            <h2>MediLab</h2>
+        </a>
+    </div>
+</nav>
+
+<div class="container">
+    <h1 class="text-center mb-4">Pharmacy Management</h1>
+
+    <!-- Form for Adding Pharmacy -->
+    <div class="form-container">
+        <h3>Add Pharmacy</h3>
+        <form id="pharmacyForm">
+            <div class="mb-3">
+                <label for="pharmacyId" class="form-label">Pharmacy Id</label>
+                <h4 id="pharmacyId"></h4>
+            </div>
+            <div class="mb-3">
+                <label for="pharmacyname" class="form-label">Pharmacy Name</label>
+                <input type="text" class="form-control" id="pharmacyname" required>
+            </div>
+            <div class="mb-3">
+                <label for="pharmacyaddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="pharmacyaddress" required>
+            </div>
+            <div class="mb-3">
+                <label for="pharmacycontact" class="form-label">Contact</label>
+                <input type="text" class="form-control" id="pharmacycontact" required>
+            </div>
+            <div class="mb-3">
+                <label for="pharmacyemail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="pharmacyemail" required>
+            </div>
+            <div class="mb-3">
+                <label for="hospitalDropdown" class="form-label">Select Hospital</label>
+                <select class="form-select" id="hospitalDropdown" required>
+                    <option value="">Select a hospital</option>
+                    <!-- Options will be populated dynamically -->
+                </select>
+            </div>
+            <button id="save" type="button" class="btn btn-primary">Add Pharmacy</button>
+            <button id="update" type="button" class="btn btn-primary">Update</button>
+            <button id="deleteBtn" type="button" class="btn btn-danger">Delete</button>
+            <button id="clear" type="button" class="btn btn-secondary">Clear</button>
+        </form>
+    </div>
+
+    <!-- Table to Display Pharmacies -->
+    <div class="table-container">
+        <h3>Pharmacy List</h3>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Pharmacy id</th>
+                <th>Pharmacy Name</th>
+                <th>Address</th>
+                <th>Contact</th>
+                <th>Email</th>
+                <th>Hospital</th>
+
+            </tr>
+            </thead>
+            <tbody id="pharmacyTableBody">
+            <!-- Dynamic rows will be populated here -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- JavaScript to handle form submissions -->
+<script src="../lib/jquery-3.7.1.min.js"></script>
+
+<script src="../js/pharmacy.js"></script>
+
+</body>
+</html>
