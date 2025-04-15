@@ -17,16 +17,10 @@ The **Medical Management System** is a web-based application designed to streaml
 
 
 ### 🔹 Hospital Management
-![Hospital Management](screenshots/hospitals.png)
+![image](https://github.com/user-attachments/assets/4d910bca-865a-4a75-a8ff-cdf3dbd03d83)
 
-### 🔹 Doctors Section
-![Doctors](screenshots/doctors.png)
-
-### 🔹 Appointment Booking
-![Appointment](screenshots/appointment.png)
-
-### 🔹 Pharmacy
-![Pharmacy](screenshots/pharmacy.png)
+### 🔹 Dashboard 
+![image](https://github.com/user-attachments/assets/7e9163cb-1db1-4cbc-bd99-658dc0da512c)
 
 ---
 
