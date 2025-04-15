@@ -12,8 +12,8 @@ The **Medical Management System** is a web-based application designed to streaml
 ![Home Page](screenshots/home.png)
 
 ### 🔹 Login
-![Login](![image](https://github.com/user-attachments/assets/a881edcd-c7a1-4d32-bfdb-058292737aca)
-)
+![image](https://github.com/user-attachments/assets/018c3b4c-e32d-4228-a492-277655291360)
+
 
 ### 🔹 Hospital Management
 ![Hospital Management](screenshots/hospitals.png)
