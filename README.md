@@ -43,7 +43,7 @@ The **Medical Management System** is a web-based application designed to streaml
 🎬 Watch the Full System Walkthrough  
 Explore all the features, functionalities, and user interfaces of the Blood Management System in this detailed demo video.
 
-🔗 Click the image above or [Watch Now on YouTube](https://youtu.be/FLPXVwIUIZo)
+🔗 Click here [Watch Now on YouTube](https://youtu.be/FLPXVwIUIZo)
 
 
 </div>
