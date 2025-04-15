@@ -26,9 +26,24 @@ The **Medical Management System** is a web-based application designed to streaml
 
 ## ⚙️ Setup Instructions
 
-### 🖥️ Backend (e.g., Node.js / PHP / Java / Python)
+### 📦 Prerequisites
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/medical-management-system.git
-   cd medical-management-system/backend
+- Java 17+
+- Maven
+- MySQL Server
+- IDE IntelliJ IDEA 
+- Postman for API testing
+
+---
+
+## 🎥 Demo Video
+
+<div align="center">
+  
+🎬 Watch the Full System Walkthrough  
+Explore all the features, functionalities, and user interfaces of the Blood Management System in this detailed demo video.
+
+🔗 Click the image above or [Watch Now on YouTube](https://youtu.be/FLPXVwIUIZo)
+
+
+</div>
